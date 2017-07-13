@@ -1,0 +1,2 @@
+class LobbyistsController < ApplicationController
+end
