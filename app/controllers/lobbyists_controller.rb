@@ -1,8 +1,7 @@
 class LobbyistsController < ApplicationController
 
   def index
-    lobbyists = Lobbyist.all
-    render json: lobbyists
+    render json: Lobbyist.all 
   end
 
   def show
